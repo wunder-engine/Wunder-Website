@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style media="screen">
+        
+    </style>
+  </head>
+  <body>
+    <form action="php.php" method="post"> 
+        <input type="file" id="real-file" hidden="hidden" name="file" />
+        <br>
+        <button type="button" id = "custom-button">CHOOSE A FILE</button>
+        <br>
+        <br>
+        <span
+        id="custom-text">No file Chosen, yet. </span> 
+        <br>
+        <br>
+        <input type="text" name="name" placeholder="Full name">
+        <br>
+        <br>
+        <input type="text" name="mail" placeholder="Your email">
+        <br>
+        <br>
+        <input type="text" name="subject" placeholder="Project name">
+        <br>
+        <br>
+        <textarea name="message" placeholder="message"></textarea>
+        <br>
+        <br>
+        <button type="submit" id = "custom-button" name ="submit"> Submit </button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
